@@ -18,14 +18,12 @@
       color: #333;
       text-align: center;
     }
-
     #instruction {
       display: none;
       margin-top: 1.5rem;
       font-size: 1.2rem;
       max-width: 90%;
     }
-
     .copy-btn {
       margin-top: 1rem;
       padding: 0.5rem 1rem;
@@ -36,7 +34,6 @@
       font-size: 1rem;
       cursor: pointer;
     }
-
     .copy-btn:active {
       transform: scale(0.98);
     }
@@ -47,13 +44,12 @@
   <h1>Redirecting...</h1>
   <div id="instruction">
     This link can’t open properly in this app.<br />
-    Please tap the 3 dots ⋮ and choose <strong>“Open in browser”</strong>.
-    <br />
+    Please tap the 3 dots ⋮ and choose <strong>“Open in browser”</strong>.<br />
     <button class="copy-btn" onclick="copyLink()">📋 Copy Link</button>
   </div>
 
   <script>
-    const redirectUrl = "https://t.me/YOUR_CHANNEL"; // o'zingizning linkni bu yerga yozing
+    const redirectUrl = "https://t.me/YOUR_CHANNEL";
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     const inAppBrowsers = ["Instagram", "FBAN", "FBAV", "TikTok", "Twitter", "Snapchat", "LinkedIn"];
 
